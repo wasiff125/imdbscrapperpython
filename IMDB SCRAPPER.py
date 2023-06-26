@@ -4,6 +4,10 @@ from lxml import etree
 import os
 import csv
 
+# changing ther link
+# https://www.imdb.com/search/title/?title_type=feature&genres=action&start=50&explore=genres&ref_=adv_nxt
+# break the link into two parts like given below
+
 imdb_url = "https://www.imdb.com/search/title/?title_type=feature&genres=action&start="
 imdb_url_end = "&explore=genres&ref_=adv_nxt"
 
